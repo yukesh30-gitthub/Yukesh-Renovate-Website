@@ -1,0 +1,1448 @@
+@font-face {
+    font-family: 'poppinslight';
+    src: url('../fonts/poppins-light-webfont.eot');
+    src: url('../fonts/poppins-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/poppins-light-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-light-webfont.woff') format('woff'),
+         url('../fonts/poppins-light-webfont.ttf') format('truetype'),
+         url('../fonts/poppins-light-webfont.svg#poppinslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'poppinslight_italic';
+    src: url('../fonts/poppins-lightitalic-webfont.eot');
+    src: url('../fonts/poppins-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/poppins-lightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-lightitalic-webfont.woff') format('woff'),
+         url('../fonts/poppins-lightitalic-webfont.ttf') format('truetype'),
+         url('../fonts/poppins-lightitalic-webfont.svg#poppinslight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('../fonts/poppins-regular-webfont.eot');
+    src: url('../fonts/poppins-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-regular-webfont.woff') format('woff'),
+         url('../fonts/poppins-regular-webfont.ttf') format('truetype'),
+         url('../fonts/poppins-regular-webfont.svg#poppinsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'poppinsitalic';
+    src: url('../fonts/poppins-italic-webfont.eot');
+    src: url('../fonts/poppins-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/poppins-italic-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-italic-webfont.woff') format('woff'),
+         url('../fonts/poppins-italic-webfont.ttf') format('truetype'),
+         url('../fonts/poppins-italic-webfont.svg#poppinsitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'poppinsmedium';
+    src: url('../fonts/poppins-medium-webfont.eot');
+    src: url('../fonts/poppins-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/poppins-medium-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-medium-webfont.woff') format('woff'),
+         url('../fonts/poppins-medium-webfont.ttf') format('truetype'),
+         url('../fonts/poppins-medium-webfont.svg#poppinsmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'poppinssemibold';
+    src: url('../fonts/poppins-semibold-webfont.eot');
+    src: url('../fonts/poppins-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/poppins-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-semibold-webfont.woff') format('woff'),
+         url('../fonts/poppins-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/poppins-semibold-webfont.svg#poppinssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'poppinsbold';
+    src: url('../fonts/poppins-bold-webfont.eot');
+    src: url('../fonts/poppins-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/poppins-bold-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-bold-webfont.woff') format('woff'),
+         url('../fonts/poppins-bold-webfont.ttf') format('truetype'),
+         url('../fonts/poppins-bold-webfont.svg#poppinsbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+	font-family: 'poppinsregular';
+	font-size:14px;
+	line-height:20px;
+}
+.activemenu
+{
+	border-bottom:5px solid white !important;
+}
+.activebtn
+{
+	background:yellow !important;
+	color:#54be73 !important;
+	border:1px solid yellow !important;
+}
+.topactive
+{
+	background:#54be73 !important;
+	color:white !important;
+}
+.priceconshadow
+{
+	box-shadow:0px 0px 10px lightgray !important;
+}
+.custom-col
+{
+	padding:0px;
+}
+/*navbar start*/
+.custom-navbar-default
+{
+	background-color:#50bc70;
+	border:0px;
+	border-radius:0px;
+	padding:30px 5px 0px 15px;
+	margin-bottom:0px;
+}
+.custom-navbar-default .navbar-brand
+{
+	padding:5px 0px 0px 0px;
+}
+.custom-navbar-default .navbar-nav li a
+{
+	color:white;
+	display:inline-block;
+	font-size:16px;
+	text-transform:capitalize;
+	font-family: 'poppinssemibold';
+	padding:14px 0px 40px 0px;
+	margin:0px 19px;
+	border-bottom:5px solid #50bc70;
+	
+}
+.custom-navbar-default .navbar-nav li a:hover
+{
+	color:white;
+}
+.custom-navbar-default .navbar-nav .dropdown span
+{
+	display:block;
+	height:10px;
+	font-size:35px;
+	color:white;
+}
+.custom-navbar-default .navbar-nav .dropdown .dropdown-toggle
+{
+	padding:0px;
+	border:none;
+	margin-top:-5px;
+}
+.custom-navbar-default .navbar-nav .dropdown .dropdown-menu a
+{
+	display:inline-block;
+	color:white;
+	background:none;
+	padding:15px 10px;
+	border:none;
+}
+.custom-navbar-default .navbar-nav .dropdown a.dropdown-toggle
+{
+	background:none;
+}
+.custom-navbar-default .navbar-nav .dropdown .dropdown-menu
+{
+	background-color:#50bc70;
+}
+/*navbar end*/
+
+/*customer carousel start*/
+.custom-customer-carousel .carousel-inner
+{
+	min-height:465px;
+}
+.custom-customer-carousel .carousel-inner
+{
+	background:url('../images/home-slide-1.jpg') no-repeat -320px 0px /141%;
+	min-height:465px;
+}
+.custom-customer-carousel .carousel-control
+{
+	display:none;
+}
+.custom-customer-carousel .carousel-caption
+{
+	text-shadow:none;
+	width:525px;
+	left:7%;
+	top:0%;
+	text-align:left;
+}
+.custom-customer-carousel .carousel-caption h1
+{
+	font-family: 'poppinssemibold';
+	text-transform:capitalize;
+	font-size:58px;
+	line-height:70px;
+	color:#313132;
+	margin-bottom:50px;
+}
+.custom-customer-carousel .carousel-caption p
+{
+	font-size:21px;
+	color:#77777f;
+	font-family: 'poppinsitalic';
+	line-height:27px;
+	padding-right:3%;
+	margin-bottom:30px;
+}
+.custom-customer-carousel .carousel-caption .custom-order-btn,.servicescontainer .custom-order-btn,.pricingcontainer .ratecontainer .custom-order-btn,.joincontainer .jointext .custom-order-btn,.footercontainer .footernews .custom-footer-btn
+{
+	text-transform:uppercase;
+	font-family: 'poppinssemibold';
+	padding: 14px 33px;
+	background:#54be73;
+	border:1px solid #54be73;
+	border-radius:30px;
+	box-shadow: 0px 3px 10px #54be7370;
+	letter-spacing:1px;
+}
+.custom-customer-carousel .carousel-indicators li,.custom-customer-carousel .carousel-indicators .active
+{
+	background:#54be73;
+	width:12px;
+	height:12px;
+	border:0px;
+}
+.custom-customer-carousel .carousel-indicators li
+{
+	background:#c6c6c6;
+	margin-right:15px;
+}
+.custom-customer-carousel .carousel-indicators
+{
+	width:10%;
+	margin:0px;
+	left:5.5%;
+	bottom:12%;
+}
+/*customer carousel end*/
+
+/*about us container start*/
+.aboutuscontainer
+{
+	padding:8.3% 6% 7.5% 7%;
+}
+.aboutuscontainer .aboutusimg
+{
+	position:relative;
+	margin-top:-5px;
+}
+.aboutuscontainer .aboutusimg img
+{
+	filter:brightness(0.73);
+}
+.aboutuscontainer .aboutusimg span
+{
+	position:absolute;
+	top:40%;
+	left:42%;
+	display:inline-block;
+	border:6px solid white;
+	width:60px;
+	height:60px;
+	border-radius:100%;
+}
+.aboutuscontainer .aboutusimg a
+{
+	position:absolute;
+	display:inline-block;
+	top:45%;
+	color:white;
+	right:50%;
+	text-decoration:none;
+	font-size:28px;
+	line-height:28px;
+}
+.aboutuscontainer .aboutustext h2,.joincontainer .jointext h2
+{
+	text-transform:capitalize;
+	font-family: 'poppinssemibold';
+	font-size:48px;
+	line-height:48px;
+	color:#313132;
+	margin:0px;
+}
+.aboutuscontainer .aboutustext span.dash,.satisfycontainer .satisfy span.dash,.custom-servicecarousel .carousel-inner .repaireditems span.dash,.ourteamcontainer span.dash,.custom-manufacturerCarousel .carousel-caption span.dash,.custom-testimonialCarousel .carousel-caption span.dash,.joincontainer .jointext span.dash
+{
+	width:40px;
+	border-top:2px solid #54be73;
+	display:inline-block;
+	margin:35px 0px 65px 0px;
+}
+.aboutuscontainer .aboutustext p
+{
+	font-family: 'poppinslight';
+	line-height:21px;
+	color:#3e3132;
+}
+/*about us container end*/
+
+/*satisfy container start*/
+.satisfycontainer
+{
+	padding:8% 6% 7.5% 7%;
+	background:#f9f9f9;
+}
+.satisfycontainer .satisfy
+{
+	min-height:215px;
+}
+.satisfycontainer .satisfy h2
+{
+	font-size:40px;
+	line-height:40px;
+	margin:30px 0px;
+	font-family: 'poppinssemibold';
+	color:#313132;
+}
+.satisfycontainer .satisfy span.dash
+{
+	margin:0px 0px 10px 0px;
+}
+.satisfycontainer .satisfy p
+{
+	text-transform:capitalize;
+	font-size:17px;
+	font-family: 'poppinslight';
+	color:#313132;
+}
+/*satisfy container end*/
+
+/*services container start*/
+.servicescontainer .servicetoptext
+{
+	background:#45b566;
+	padding:3.5% 0%;
+	color:white;
+	position:relative;
+	margin-bottom:40px;
+}
+.servicescontainer .servicetoptext h1,.custom-manufacturerCarousel .carousel-caption h1
+{
+	font-size:46px;
+	line-height:46px;
+	font-family: 'poppinsbold';
+	text-transform:capitalize;
+	margin-bottom:30px;
+}
+.servicescontainer .servicetoptext p
+{
+	font-size:17px;
+}
+.servicescontainer .servicetoptext a
+{
+	display:inline-block;
+	position:absolute;
+	bottom:-20%;
+	left:49%;
+	color:#45b566;
+	font-size:75px;
+}
+.custom-servicecarousel .carousel-inner
+{
+	min-height:400px;
+}
+.custom-servicecarousel .carousel-inner .custom-item1,.custom-servicecarousel .carousel-inner .custom-item2
+{
+	padding:1.3% 6% 1.5% 7.5%;
+}
+.custom-servicecarousel .carousel-inner .repaireditems
+{
+	width:270px;
+	min-height:400px;
+	padding:12% 0% 0% 0%;
+	border:1px solid #ebebeb;
+}
+.custom-servicecarousel .carousel-inner .repaireditems span.dash
+{
+	margin:50px 0px 0px 0px;
+	width:30px;
+}
+.custom-servicecarousel .carousel-inner .repaireditems h2
+{
+	padding: 0px 38px;
+	color:#54be73;
+	text-transform:capitalize;
+	font-family: 'poppinssemibold';
+	font-size:23px;
+	margin:10px 0px 20px 0px;
+}
+.custom-servicecarousel .carousel-control
+{
+	background:none;
+	text-shadow:none;
+}
+.custom-servicecarousel .carousel-indicators
+{
+	display:none;
+}
+.custom-servicecarousel .carousel-control.left,.custom-servicecarousel .leftarrow
+{
+	top: 36%;
+	bottom:40%;
+	width: 6%;
+	left: 5%;
+	opacity:1;
+}
+.custom-servicecarousel .leftarrow,.custom-servicecarousel .rightarrow
+{
+	display:inline-block;
+	color:white;
+	font-size:17px;
+	position:absolute;
+	left:5%;
+	background:#54be73;
+	width:50px;
+	height:50px;
+	border-radius:100%;
+	padding:16px 5px 0px 0px;
+	box-shadow: 0px 3px 10px #54be7370;
+}
+.custom-servicecarousel .rightarrow
+{
+	padding:16px 0px 0px 5px;
+}
+.custom-servicecarousel .carousel-control.right
+{
+	top: 44%;
+	bottom:40%;
+	width: 6%;
+	right:2%;
+	opacity:1;
+}
+.servicescontainer .custom-order-btn
+{
+	margin:3.5% 0% 8% 0%;
+	padding:14px 44px;
+	color:white;
+	transition:1s;
+}
+/*services container end*/
+
+/*our team container start*/
+.ourteamcontainer
+{
+	padding:9.5% 6% 8% 7%;
+	background:#f9f9f9;
+}
+.ourteamcontainer h2,.ourteamcontainer .workers h1,.pricingcontainer h1,.custom-testimonialCarousel .carousel-caption h1
+{
+	text-transform:capitalize;
+	font-size:48px;
+	line-height:48px;
+	margin:0px;
+	color:#313132;
+	font-family: 'poppinssemibold';
+}
+.ourteamcontainer span.dash
+{
+	margin:35px 0px 60px 0px;
+}
+.ourteamcontainer .workers
+{
+	width:370px;
+}
+.ourteamcontainer .workers img
+{
+	width:100%;
+}
+.ourteamcontainer .workers h1
+{
+	color:#54be73;
+	font-size:29px;
+	line-height:30px;
+	font-family: 'poppinsbold';
+	margin:30px 0px 10px 0px;
+}
+.ourteamcontainer .workers p
+{
+	color:#adadae;
+	margin:0px 0px 20px 0px;
+	font-family: 'poppinslight';
+}
+.ourteamcontainer .workers .socialmedia a
+{
+	display:inline-block;
+	width:40px;
+	height:40px;
+	border-radius:100%;
+	background:#395b98;
+	padding:12px;
+	color:white;
+	font-size:18px;
+	margin-right:5px;
+}
+.ourteamcontainer .workers .socialmedia .twitter
+{
+	background:#2ca7e0;
+}
+.ourteamcontainer .workers .socialmedia .goggleplus
+{
+	background:#d95139;
+}
+.ourteamcontainer .workers .socialmedia .linkedin
+{
+	background:#107bc1;
+}
+.ourteamcontainer .workers .socialmedia .instragram
+{
+	background:#4879a1;
+}
+/*our team container end*/
+
+/*manufacturer Carousel start*/
+.custom-manufacturerCarousel .carousel-inner
+{
+	min-height:550px;
+	background: linear-gradient(#00000080, #00000080),url('../images/parallax-1.jpg') no-repeat -285px -450px /143% 205%;
+}
+.custom-manufacturerCarousel .carousel-control
+{
+	display:none;
+}
+.custom-manufacturerCarousel .carousel-inner .custom-item1,.custom-manufacturerCarousel .carousel-inner .custom-item2
+{
+	background: linear-gradient(#00000080, #00000080),url('../images/parallax-1.jpg') no-repeat -270px -370px /142% 260%;
+	min-height:360px;
+	margin-top:12%;
+	padding:9% 7% 0% 8%;
+}
+.custom-manufacturerCarousel .carousel-inner .custom-item1 .companys,.custom-manufacturerCarousel .carousel-inner .custom-item2 .companys
+{
+	filter: opacity(0.75);
+}
+.custom-manufacturerCarousel .carousel-caption
+{
+	top:19%;
+	left:21%;
+}
+.custom-manufacturerCarousel .carousel-caption span.dash
+{
+	margin:0px;
+}
+.custom-manufacturerCarousel .carousel-indicators
+{
+	width:10%;
+	margin-left:0%;
+	left:47%;
+	bottom:23%;
+}
+.custom-manufacturerCarousel .carousel-indicators li
+{
+	margin-right:15px;
+	background: #ffffff5e;
+	border: 0px;
+	width:12px;
+	height:12px;
+}
+.custom-manufacturerCarousel .carousel-indicators .active
+{
+	background:#54be73;
+}
+/*manufacturer Carousel end*/
+
+/*pricing container start*/
+.pricingcontainer
+{
+	padding:6.5% 6.5% 6% 7%;
+}
+.pricingcontainer .custom-page-header
+{
+	margin:5px 0px 25px 0px;
+}
+.pricingcontainer .ratecontainer
+{
+	border:1px solid #dbdbdb;
+	border-radius:10px;
+	text-transform:capitalize;
+}
+.pricingcontainer .ratecontainer .pricetop
+{
+	padding:9% 0% 3% 0%;
+	background:#f9f9f9;
+	border-radius: 10px 10px 0px 0px;
+}
+.pricingcontainer .ratecontainer .pricetop h3
+{
+	margin:0px;
+	color:#313132;
+	font-family: 'poppinssemibold';
+	font-size:18px;
+}
+.pricingcontainer .ratecontainer .pricetop h2
+{
+	color:#44b465;
+	font-family: 'poppinsbold';
+	font-size:29px;
+	margin:25px 0px 20px 0px;
+	line-height:29px;
+}
+.pricingcontainer .ratecontainer .pricetext
+{
+	padding:12% 7% 1% 7%;
+}
+.pricingcontainer .ratecontainer .pricetext p
+{
+	color:#777;
+	font-family: 'poppinslight';
+	margin:0px;
+}
+.pricingcontainer .ratecontainer .custom-page-header
+{
+	border-bottom:1px solid #dbdbdb;
+	margin:5px 0px 15px 0px;
+}
+.pricingcontainer .ratecontainer .custom-order-btn
+{
+	margin:30px 0px 25px 0px;
+	padding:14px 44px;
+	transition: 0.5s;
+}
+/*pricing container end*/
+
+/*testimonial Carousel start*/
+.custom-testimonialCarousel .carousel-control
+{
+	display:none;
+}
+.custom-testimonialCarousel .carousel-inner
+{
+	min-height:665px;
+	background:#f9f9f9;
+}
+.custom-testimonialCarousel .carousel-inner .testimonial .customers
+{
+	float:left;
+	width:50px;
+}
+.custom-testimonialCarousel .carousel-inner .testimonial .customers img
+{
+	border-radius:100%;
+}
+.custom-testimonialCarousel .carousel-inner .testimonial .customername
+{
+	width:150px;
+	float:left;
+	margin-left:10px;
+}
+.fclear
+{
+	clear:both;
+}
+.custom-testimonialCarousel .carousel-inner .testimonial
+{
+	width:250px;
+}
+.custom-testimonialCarousel .carousel-inner .testimonial .customername h2
+{
+	margin:5px 0px 5px 0px;
+	color:#54be73;
+	font-size:18px;
+	font-family: 'poppinssemibold';
+}
+.custom-testimonialCarousel .carousel-inner .testimonial .customername p
+{
+	color:#b7b7b7;
+}
+.custom-testimonialCarousel .carousel-inner .testimonial p.testistext
+{
+	border-top:1px solid #ebebeb;
+	color:#4b4b4c;
+	padding-top:10px;
+	font-family: 'poppinslight_italic';
+}
+.custom-testimonialCarousel .carousel-inner .testismonalscon
+{
+	margin:19% 7% 0% 7%;
+}
+.custom-testimonialCarousel .carousel-caption h1
+{
+	text-shadow:none;
+	font-size:47px;
+	line-height:47px;
+}
+.custom-testimonialCarousel .carousel-caption span.dash
+{
+	margin:4% 0% 0% 0%;
+}
+.custom-testimonialCarousel .carousel-caption
+{
+	top:14%;
+	left:22%;
+}
+.custom-testimonialCarousel .carousel-indicators
+{
+	width:10%;
+	margin:0%;
+	bottom:14%;
+	left:46.5%;
+}
+.custom-testimonialCarousel .carousel-indicators li
+{
+	background:#c6c6c6;
+	width:14px;
+	height:14px;
+	margin-right:15px;
+}
+.custom-testimonialCarousel .carousel-indicators .active
+{
+	background:#54be73;
+}
+/*testimonial Carousel end*/
+
+/*join container start*/
+.joincontainer
+{
+	padding:6% 7% 5% 7%;
+}
+.joincontainer .jointext
+{
+	padding-top:13%;
+}
+.joincontainer .jointext p
+{
+	font-family: 'poppinslight';
+	line-height:23px;
+	margin-bottom:30px;
+	color:#313132;
+}
+.joincontainer .jointext span.dash
+{
+	margin:5.5% 0% 10% 0%;
+}
+.joincontainer .jointext .custom-order-btn
+{
+	padding:14px 44px;
+	transition:1s;
+}
+/*join container end*/
+
+/*map container start*/
+.mapcontainer iframe
+{
+	width:100%;
+	border:1px solid white;
+	min-height:400px;
+	display:block;
+}
+/*map container end*/
+
+/*footer container start*/
+.footercontainer
+{
+	background:#313132;
+	padding:7% 6% 0% 7%;
+	margin-bottom:6%;
+}
+.footercontainer .footersocialmedia
+{
+	margin-top:40%;
+}
+.footercontainer .footersocialmedia a
+{
+	color:#777;
+	font-size:18px;
+	margin-right:13px;
+	display:inline-block;
+}
+.footercontainer .footernews
+{
+	padding-right:18%;
+}
+.footercontainer .footernews h1,.footercontainer .footercontact h1
+{
+	text-transform:capitalize;
+	font-size:23px;
+	color:white;
+	font-family: 'poppinssemibold';
+	margin:0px;
+}
+.footercontainer .footernews .custom-page-header,.footercontainer .footercontact .custom-page-header
+{
+	margin:0px 0px 20px 0px;
+	border-color:#777;
+}
+.footercontainer .footernews p
+{
+	color:#777;
+	font-family: 'poppinslight';
+	line-height: 22px;
+}
+.footercontainer .footernews .custom-form-control
+{
+	height:40px;
+	border-radius: 20px 0px 0px 20px;
+	padding-left: 18px;
+	background:#f5f5f5;
+	font-size:12px;
+}
+.footercontainer .footernews .custom-footer-btn
+{
+	padding:9px 8px;
+	box-shadow:none;
+	margin-left:-15px;
+	z-index:3;
+	letter-spacing:0px;
+	transition:1s;
+}
+.footercontainer .footercontact,.footercontainer .footernews
+{
+	margin-top:-10px;
+}
+.footercontainer .footercontact .contacticon
+{
+	float:left;
+	margin-right:15px;
+}
+.footercontainer .footercontact .contact a
+{
+	color:white;
+	display:inline-block;
+	font-size:17px;
+}
+.footer-custom-col
+{
+	padding:0px 12px;
+}
+.footercontainer .footercontact .contact .number p
+{
+	margin:0px;
+}
+.footercontainer .footercontact .contact .number
+{
+	float:left;
+	color:#6a7275;
+	margin-bottom:20px;
+}
+.footercontainer .footercontact .contact a.mail
+{
+	color:#40b173;
+	display:inline-block;
+	text-decoration:none;
+	font-size:14px;
+}
+.footercontainer a.copyright
+{
+	display:inline-block;
+	color:#6a7275;
+	margin:7% 0% 1% 0%;
+	text-decoration:none;
+	font-family: 'poppinslight';
+}
+/*footer container end*/
+
+
+
+/*portrait view*/
+
+@media (min-width:320px) and (max-width:480px)
+{
+.custom-navbar-default
+{
+	padding:20px 5px 20px 15px;
+}
+.custom-navbar-default .navbar-nav li.dropdown
+{
+	display:none;
+}
+.custom-customer-carousel .carousel-inner
+{
+	background:url('../images/home-slide-1.jpg') no-repeat 0px 0px /100% 140% ;
+	min-height:420px;
+}
+.custom-customer-carousel .carousel-caption
+{
+	width:100%;
+	left:0%;
+	padding-left:4%;
+}
+.custom-customer-carousel .carousel-caption h1
+{
+	font-size:33px;
+	line-height:35px;
+}
+.custom-customer-carousel .carousel-caption p
+{
+	font-size:18px;
+	line-height:25px;
+	padding-right:0%;
+	margin-bottom:30px;
+}
+.custom-customer-carousel .carousel-caption .custom-order-btn,.servicescontainer .custom-order-btn,.pricingcontainer .ratecontainer .custom-order-btn,.joincontainer .jointext .custom-order-btn,.footercontainer .footernews .custom-footer-btn
+{
+	padding:15px 20px;
+	border-radius:30px;
+}
+.custom-customer-carousel .carousel-indicators
+{
+	width:30%;
+	bottom:15%;
+}
+.aboutuscontainer
+{
+	padding:15% 8% 15% 8%;
+}
+.aboutuscontainer .aboutusimg img
+{
+	width:100%;
+	margin-bottom:20px;
+}
+.aboutuscontainer .aboutusimg span
+{
+	top:30%;
+	left:37%;
+}
+.aboutuscontainer .aboutusimg a
+{
+	top:39%;
+	right:47%;
+}
+.aboutuscontainer .aboutustext h2,.joincontainer .jointext h2
+{
+	font-size:32px;
+	line-height:32px;
+}
+.aboutuscontainer .aboutustext span.dash,.satisfycontainer .satisfy span.dash,.custom-servicecarousel .carousel-inner .repaireditems span.dash,.ourteamcontainer span.dash,.custom-manufacturerCarousel .carousel-caption span.dash,.custom-testimonialCarousel .carousel-caption span.dash,.joincontainer .jointext span.dash
+{
+	margin:15px 0px 25px 0px;
+}
+.satisfycontainer
+{
+	padding:15% 8% 10% 8%;
+}
+.satisfycontainer .satisfy
+{
+	margin-bottom:40px;
+}
+.satisfycontainer .satisfy h2
+{
+	margin:20px 0px;
+}
+.servicescontainer .servicetoptext
+{
+	padding:3.5% 2%;
+	margin-bottom:40px;
+}
+.servicescontainer .servicetoptext h1,.custom-manufacturerCarousel .carousel-caption h1
+{
+	font-size:35px;
+	line-height:35px;
+	margin-bottom:30px;
+}
+.servicescontainer .servicetoptext p
+{
+	font-size:15px;
+}
+.servicescontainer .servicetoptext a
+{
+	left:45%;
+}
+.custom-servicecarousel .carousel-inner .repaireditems
+{
+	width:100%;
+	margin-bottom:40px;
+}
+.custom-servicecarousel .carousel-control
+{
+	display:none;
+}
+.ourteamcontainer
+{
+	padding:15% 8% 12% 8%;
+}
+.ourteamcontainer h2,.ourteamcontainer .workers h1,.pricingcontainer h1,.custom-testimonialCarousel .carousel-caption h1
+{
+	font-size:32px;
+	line-height:32px;
+}
+.ourteamcontainer span.dash
+{
+	margin:35px 0px 40px 0px;
+}
+.ourteamcontainer .workers
+{
+	width:100%;
+	margin-bottom:40px;
+}
+.ourteamcontainer .workers p
+{
+	font-size:16px;
+}
+.custom-manufacturerCarousel .carousel-inner
+{
+	min-height:500px;
+	background:linear-gradient(#00000080, #00000080),url('../images/parallax-1.jpg')no-repeat -50px -400px /150% 183%
+}
+.custom-manufacturerCarousel .carousel-inner .custom-item1,.custom-manufacturerCarousel .carousel-inner .custom-item2
+{
+	background: linear-gradient(#00000080, #00000080),url('../images/parallax-1.jpg') no-repeat -47px -330px /123% 210%;
+	margin-top:25%;
+}
+.custom-manufacturerCarousel .carousel-caption
+{
+	top:8%;
+	left:10%;
+}
+.custom-manufacturerCarousel .carousel-caption h1
+{
+	margin:0px 0px;
+}
+.custom-manufacturerCarousel .carousel-indicators
+{
+	width:25%;
+	left:40%;
+	bottom:9%
+}
+.custom-manufacturerCarousel .carousel-inner .custom-item1 .companys, .custom-manufacturerCarousel .carousel-inner .custom-item2 .companys
+{
+	text-align:center;
+	margin-bottom: 15px;
+}
+.pricingcontainer
+{
+	padding:15% 8% 15% 8%;
+}
+.pricingcontainer .ratecontainer
+{
+	margin-bottom:40px;
+}
+.pricingcontainer .ratecontainer .custom-order-btn
+{
+	padding:14px 48px;
+}
+.custom-testimonialCarousel .carousel-inner
+{
+	min-height:665px;
+}
+.custom-testimonialCarousel .carousel-inner .testimonial .customers
+{
+	float:none;
+	width:100%;
+}
+.custom-testimonialCarousel .carousel-inner .testimonial .customername
+{
+	width:100%;
+	float:none;
+	margin-left:0px;
+}
+.custom-testimonialCarousel .carousel-inner .testimonial
+{
+	width:100%;
+	margin-bottom:35px;
+}
+.custom-testimonialCarousel .carousel-caption h1
+{
+	font-size:35px;
+	line-height:35px;
+}
+.custom-testimonialCarousel .carousel-inner .testismonalscon
+{
+	margin: 35% 7% 10% 7%;
+}
+.custom-testimonialCarousel .carousel-caption
+{
+	top:3%;
+	left:15%;
+}
+.custom-testimonialCarousel .carousel-indicators
+{
+	width:20%;
+	margin:0%;
+	bottom:3%;
+	left:40%;
+}
+.joincontainer
+{
+	padding:15% 7% 15% 7%;
+}
+.joincontainer .joinimg img
+{
+	width:100%;
+}
+.joincontainer .jointext .custom-order-btn
+{
+	padding:12px 35px;
+}
+.mapcontainer iframe
+{
+	width:100%;
+	min-height:400px;
+}
+.footercontainer
+{
+	padding:8% 7% 1% 7%;
+	margin-bottom:0%;
+}
+.footercontainer .footersocialmedia
+{
+	margin:20% 0% 15% 0%;
+}
+.footercontainer .footernews
+{
+	padding-right:18%;
+	margin-bottom:15%;
+}
+.footercontainer .footernews .custom-form-control
+{
+	height:40px;
+	border-radius: 20px 0px 0px 20px;
+	padding-left:10px;
+}
+.footercontainer .footernews .custom-footer-btn
+{
+	padding:9px 10px;
+	box-shadow:none;
+	margin-left:-15px;
+	z-index:3;
+}
+.footercontainer .footercontact .contact
+{
+	margin-left:10px;
+}
+.footercontainer .footercontact .contacticon
+{
+	float:none;
+}
+.footercontainer .footercontact .contact .number
+{
+	float:none;
+	margin-bottom:15px;
+}
+}
+
+
+/*landscape view*/
+
+@media (min-width:481px) and (max-width:767px)
+{
+.custom-navbar-default
+{
+	padding:20px 5px 20px 15px;
+}
+.custom-navbar-default .navbar-nav li.dropdown
+{
+	display:none;
+}
+.custom-customer-carousel .carousel-inner
+{
+	background:url('../images/home-slide-1.jpg') no-repeat 0px 0px / 100% 120%;
+	min-height:370px;
+}
+.custom-customer-carousel .carousel-caption
+{
+	width:100%;
+	left:0%;
+	top: 10%;
+	padding:0% 15% 0% 4%;
+}
+.custom-customer-carousel .carousel-caption h1
+{
+	font-size:37px;
+	line-height:40px;
+	padding-right:10%;
+}
+.custom-customer-carousel .carousel-caption p
+{
+	font-size:18px;
+	line-height:25px;
+	padding-right:0%;
+	margin-bottom:30px;
+}
+.custom-customer-carousel .carousel-caption .custom-order-btn,.servicescontainer .custom-order-btn,.pricingcontainer .ratecontainer .custom-order-btn,.joincontainer .jointext .custom-order-btn,.footercontainer .footernews .custom-footer-btn
+{
+	padding:15px 20px;
+	border-radius:30px;
+}
+.custom-customer-carousel .carousel-indicators
+{
+	width:30%;
+	bottom:15%;
+	left:0%;
+}
+.aboutuscontainer
+{
+	padding:15% 8% 15% 8%;
+}
+.aboutuscontainer .aboutusimg img
+{
+	width:100%;
+	margin-bottom:20px;
+}
+.aboutuscontainer .aboutusimg span
+{
+	top:35%;
+	left:43%;
+}
+.aboutuscontainer .aboutusimg a
+{
+	top:41%;
+	right:46%;
+}
+.aboutuscontainer .aboutustext h2,.joincontainer .jointext h2
+{
+	font-size:32px;
+	line-height:32px;
+}
+.aboutuscontainer .aboutustext span.dash,.satisfycontainer .satisfy span.dash,.custom-servicecarousel .carousel-inner .repaireditems span.dash,.ourteamcontainer span.dash,.custom-manufacturerCarousel .carousel-caption span.dash,.custom-testimonialCarousel .carousel-caption span.dash,.joincontainer .jointext span.dash
+{
+	margin:15px 0px 25px 0px;
+}
+.satisfycontainer
+{
+	padding:15% 8% 10% 8%;
+}
+.satisfycontainer .satisfy
+{
+	margin-bottom:40px;
+}
+.satisfycontainer .satisfy h2
+{
+	margin:20px 0px;
+}
+.servicescontainer .servicetoptext
+{
+	padding:3.5% 2%;
+	margin-bottom:40px;
+}
+.servicescontainer .servicetoptext h1,.custom-manufacturerCarousel .carousel-caption h1
+{
+	font-size:35px;
+	line-height:35px;
+	margin-bottom:30px;
+}
+.servicescontainer .servicetoptext p
+{
+	font-size:15px;
+}
+.servicescontainer .servicetoptext a
+{
+	left:45%;
+}
+.custom-servicecarousel .carousel-inner .repaireditems
+{
+	width:100%;
+	margin-bottom:40px;
+}
+.custom-servicecarousel .carousel-control
+{
+	display:none;
+}
+.ourteamcontainer
+{
+	padding:15% 8% 12% 8%;
+}
+.ourteamcontainer h2,.ourteamcontainer .workers h1,.pricingcontainer h1,.custom-testimonialCarousel .carousel-caption h1
+{
+	font-size:36px;
+	line-height:36px;
+}
+.pricingcontainer .ratecontainer .pricetop h3
+{
+	font-size:25px;
+	line-height:25px;
+}
+.ourteamcontainer span.dash
+{
+	margin:35px 0px 40px 0px;
+}
+.ourteamcontainer .workers
+{
+	width:100%;
+	margin-bottom:40px;
+}
+.ourteamcontainer .workers p
+{
+	font-size:16px;
+}
+.custom-manufacturerCarousel .carousel-inner
+{
+	min-height:520px;
+	background: linear-gradient(#00000080, #00000080),url('../images/parallax-1.jpg')no-repeat -65px -470px /113% 210%;
+}
+.custom-manufacturerCarousel .carousel-inner .custom-item1,.custom-manufacturerCarousel .carousel-inner .custom-item2
+{
+	background: linear-gradient(#00000080, #00000080),url('../images/parallax-1.jpg') no-repeat -75px -375px /123% 210%;
+	margin-top:18%;
+}
+.custom-manufacturerCarousel .carousel-caption
+{
+	top:10%;
+	left:15%;
+}
+.custom-manufacturerCarousel .carousel-caption h1
+{
+	margin:0px 0px;
+}
+.custom-manufacturerCarousel .carousel-indicators
+{
+	width:25%;
+	left:40%;
+	bottom:2%
+}
+.custom-manufacturerCarousel .carousel-inner .custom-item1 .companys, .custom-manufacturerCarousel .carousel-inner .custom-item2 .companys
+{
+	text-align:center;
+	margin-bottom:20px;
+}
+.pricingcontainer
+{
+	padding:15% 8% 15% 8%;
+}
+.pricingcontainer .ratecontainer
+{
+	margin-bottom:40px;
+}
+.pricingcontainer .ratecontainer .custom-order-btn
+{
+	padding:14px 48px;
+}
+.custom-testimonialCarousel .carousel-inner
+{
+	min-height:665px;
+}
+.custom-testimonialCarousel .carousel-inner .testimonial .customers
+{
+	float:none;
+	width:100%;
+}
+.custom-testimonialCarousel .carousel-inner .testimonial .customername
+{
+	width:100%;
+	float:none;
+	margin-left:0px;
+}
+.custom-testimonialCarousel .carousel-inner .testimonial
+{
+	width:100%;
+	margin-bottom:35px;
+}
+.custom-testimonialCarousel .carousel-caption h1
+{
+	font-size:35px;
+	line-height:35px;
+}
+.custom-testimonialCarousel .carousel-inner .testismonalscon
+{
+	margin: 35% 7% 10% 7%;
+}
+.custom-testimonialCarousel .carousel-caption
+{
+	top:3%;
+	left:15%;
+}
+.custom-testimonialCarousel .carousel-indicators
+{
+	width:20%;
+	margin:0%;
+	bottom:3%;
+	left:40%;
+}
+.joincontainer
+{
+	padding:15% 7% 15% 7%;
+}
+.joincontainer .joinimg img
+{
+	width:100%;
+}
+.joincontainer .jointext .custom-order-btn
+{
+	padding:12px 35px;
+}
+.mapcontainer iframe
+{
+	width:100%;
+	min-height:400px;
+}
+.footercontainer
+{
+	padding:8% 7% 1% 7%;
+	margin-bottom:0%;
+}
+.footercontainer .footersocialmedia
+{
+	margin:18% 0% 12% 0%;
+}
+.footercontainer .footernews
+{
+	padding-right:18%;
+	margin-bottom:12%;
+}
+.footercontainer .footernews .custom-form-control
+{
+	height:40px;
+	border-radius: 20px 0px 0px 20px;
+	padding-left:15px;
+}
+.footercontainer .footernews .custom-footer-btn
+{
+	padding:9px 10px;
+	box-shadow:none;
+	margin-left:-15px;
+	z-index:3;
+}
+.footercontainer .footercontact .contact
+{
+	margin-left:10px;
+}
+.footercontainer .footercontact .contacticon
+{
+	float:none;
+}
+.footercontainer .footercontact .contact .number
+{
+	float:none;
+	margin-bottom:18px;
+}
+}
